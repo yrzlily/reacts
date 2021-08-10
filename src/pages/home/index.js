@@ -5,6 +5,7 @@ import base from '../utils/base'
 import { Button } from 'antd';
 class Index extends React.Component {
 
+
     getData(e, obj) {
         console.log(obj)
     }
@@ -19,7 +20,7 @@ class Index extends React.Component {
                 <Button type="primary">Primary Button</Button>
                 <Link  to={{
                     pathname:'/main',
-                    search:'?id=2'
+                    search:'?id=3'
                 }} >Main</Link>
             </div>
         )
